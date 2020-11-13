@@ -2,87 +2,105 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
+class MyBottomBar extends StatefulWidget {
+  @override
+  _MyBottomBarState createState() => _MyBottomBarState();
+}
+
 class MyApp extends StatelessWidget {
-  Widget titleSection = Container(
-    padding: const EdgeInsets.all(32),
-    child: Row(
-      children: [
-        Expanded(
-          /*1*/
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              /*2*/
-              Container(
-                padding: const EdgeInsets.only(bottom: 8),
-                child: Text(
-                  'Oeschinen Lake Campground',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                  ),
+
+  Widget mainCards = ListView(
+    children:
+    const <Widget>[
+      Card(
+        child: ListTile(
+          title: Text('Pengeluaran Bulan Ini'),
+          subtitle: Text.rich(
+            TextSpan( // default text style
+              children: <TextSpan>[
+                TextSpan(text: 'Rp.1.800.500', style: TextStyle(
+                    fontSize: 32, fontWeight: FontWeight.bold, color: Colors.black)
                 ),
-              ),
-              Text(
-                'Kandersteg, Switzerland',
-                style: TextStyle(
-                  color: Colors.grey[500],
-                ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
-        /*3*/
-        Icon(
-          Icons.star,
-          color: Colors.red[500],
+      ),
+      Card(
+        child: ListTile(
+          leading: Icon(Icons.local_atm),
+          title: Text('Pemasukkan'),
+          trailing: Text.rich(
+            TextSpan( // default text style
+              children: <TextSpan>[
+                TextSpan(text: 'Rp.800.500', style: TextStyle(
+                  color: Colors.black)
+                ),
+              ],
+            ),
+          ),
         ),
-        Text('41'),
-      ],
-    ),
+      ),
+      Card(
+        child: ListTile(
+          leading: Icon(Icons.account_balance_wallet),
+          title: Text('Net'),
+          trailing: Text.rich(
+            TextSpan( // default text style
+              children: <TextSpan>[
+                TextSpan(text: 'Rp.650.000', style: TextStyle(
+                    color: Colors.black)
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+      Card(
+        child: ListTile(
+          leading: Icon(Icons.monetization_on),
+          title: Text('Tabungan'),
+        ),
+      )
+    ],
   );
 
   Widget buttonSection = Container(
+    margin: const EdgeInsets.all(8),
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         Row(
-          mainAxisSize: MainAxisSize.min,
+          mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(Icons.home),
-            Container(
-              margin: const EdgeInsets.only(left: 128),
-              child: Text(
-                'HOME',
-                style: TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.w400,
-                ),
-              ),
-            ),
           ],
         ),
         Row(
-          mainAxisSize: MainAxisSize.min,
+          mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.favorite),
-            Container(
-              margin: const EdgeInsets.only(left: 128),
-              child: Text(
-                'HOME',
-                style: TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.w400,
-                ),
-              ),
-            ),
+            Icon(Icons.insert_chart_sharp),
+          ],
+        ),
+        Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.add_box_sharp),
+          ],
+        ),
+        Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.restore),
           ],
         )
       ],
     ),
   );
-
   Row _buildButtonRow(IconData icon, String label) {
     return Row(
       mainAxisSize: MainAxisSize.min,
@@ -110,9 +128,20 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Sinabung'),
         ),
-        //body: ,
-        bottomNavigationBar: buttonSection
+        body: mainCards,
+        bottomNavigationBar: BottomAppBar(
+          child: buttonSection,
+        )
       ),
     );
   }
 }
+
+class _MyBottomBarState extends State<MyBottomBar> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
+
