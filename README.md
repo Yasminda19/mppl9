@@ -2,9 +2,9 @@
 
 ## Sinabung - Flutter Based Budget Tracking and Saving App
 
-<img align="left" src="https://github.com/Yasminda19/mppl9/blob/master/screens/onboard5.png" alt="drawing" width="200"/>
-<img align="left" src="https://github.com/Yasminda19/mppl9/blob/master/screens/onboard7.png" alt="drawing" width="200"/>
-<img align="left" src="https://github.com/Yasminda19/mppl9/blob/master/screens/onboard8.png" alt="drawing" width="200"/>
+<img src="https://github.com/Yasminda19/mppl9/blob/master/screens/onboard5.png" alt="drawing" width="300"/>
+<img src="https://github.com/Yasminda19/mppl9/blob/master/screens/onboard7.png" alt="drawing" width="300"/>
+<img src="https://github.com/Yasminda19/mppl9/blob/master/screens/onboard8.png" alt="drawing" width="300"/>
 
 - **Project Manager & Lead Mobile Developer**: Yasmin Salamah Ilmu Komputer / G64170108 
 - **System Analyst Santi Amalia Ar-Nur Ilmu Komputer** / G64170041 
@@ -21,16 +21,16 @@ Membutuhkan Flutter SDK, Dart dan android SDK tools.
 
 ### Features
 
-<img align="left" src="https://github.com/Yasminda19/mppl9/blob/master/screens/Laman%20Utama.png" alt="drawing" width="300"/>
-<img align="left" src="https://github.com/Yasminda19/mppl9/blob/master/screens/Analisis.png" alt="drawing" width="300"/>
+<img src="https://github.com/Yasminda19/mppl9/blob/master/screens/Laman%20Utama.png" alt="drawing" width="300"/>
+<img src="https://github.com/Yasminda19/mppl9/blob/master/screens/Analisis.png" alt="drawing" width="300"/>
 
 Berikut kami lampirkan information architecture dari sinabung
 
-<img align="left" src="https://github.com/Yasminda19/mppl9/blob/master/screens/Frame%201.png" alt="drawing"/>
+<img src="https://github.com/Yasminda19/mppl9/blob/master/screens/Frame%201.png" alt="drawing"/>
 
 #### Menambahkan Transaksi untuk Budget Tracking
 
-<img align="left" src="https://github.com/Yasminda19/mppl9/blob/master/screens/Tambah%20Transaksi%20-%20Choice.png" alt="drawing" width="300"/>
+<img src="https://github.com/Yasminda19/mppl9/blob/master/screens/Tambah%20Transaksi%20-%20Choice.png" alt="drawing" width="300"/>
 
 #### Menabung
 
