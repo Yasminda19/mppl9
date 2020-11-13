@@ -2,10 +2,10 @@
 
 ## Sinabung - Flutter Based Budget Tracking and Saving App
 
-**Project Manager & Lead Mobile Developer**: Yasmin Salamah Ilmu Komputer / G64170108 
-**System Analyst Santi Amalia Ar-Nur Ilmu Komputer** / G64170041 
-**Mobile Developer Morgan Mendel Ilmu Komputer** / G64170069
-**Mobile Developer M. Naufal Shidqi Ilmu Komputer** / G64170068
+- **Project Manager & Lead Mobile Developer**: Yasmin Salamah Ilmu Komputer / G64170108 
+- **System Analyst Santi Amalia Ar-Nur Ilmu Komputer** / G64170041 
+- **Mobile Developer Morgan Mendel Ilmu Komputer** / G64170069
+- **Mobile Developer M. Naufal Shidqi Ilmu Komputer** / G64170068
 
 ### Deskripsi Aplikasi 
 Sinabung adalah aplikasi budgeting tracker personal untuk membantu pengguna menyeimbangkan pemasukan dan pengeluaran pribadi dan menjadi pedoman bagi penggunanya dalam pengambilan keputusan dan pengelolaan keuangan.
