@@ -2,9 +2,7 @@
 
 ## Sinabung - Flutter Based Budget Tracking and Saving App
 
-<img src="https://github.com/Yasminda19/mppl9/blob/master/screens/onboard5.png" alt="drawing" width="300"/>
-<img src="https://github.com/Yasminda19/mppl9/blob/master/screens/onboard7.png" alt="drawing" width="300"/>
-<img src="https://github.com/Yasminda19/mppl9/blob/master/screens/onboard8.png" alt="drawing" width="300"/>
+<img align="center" src="https://github.com/Yasminda19/mppl9/blob/master/screens/onboard5.png" alt="drawing" width="300"/>
 
 - **Project Manager & Lead Mobile Developer**: Yasmin Salamah Ilmu Komputer / G64170108 
 - **System Analyst Santi Amalia Ar-Nur Ilmu Komputer** / G64170041 
