@@ -33,7 +33,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       height: 8.0,
       width: isActive ? 24.0 : 16.0,
       decoration: BoxDecoration(
-        color: isActive ? Colors.white : Color(0xFF7B51D3),
+        color: isActive ? Colors.white,
         borderRadius: BorderRadius.all(Radius.circular(12)),
       ),
     );
@@ -52,9 +52,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               stops: [0.1, 0.4, 0.7, 0.9],
               colors: [
                 Color(0xFF3594DD),
-                Color(0xFF4563DB),
-                Color(0xFF5036D5),
-                Color(0xFF5B16D0),
               ],
             ),
           ),
