@@ -2,6 +2,8 @@
 
 ## Sinabung - Flutter Based Budget Tracking and Saving App
 
+![onboarding](onboard 5.png)
+
 - **Project Manager & Lead Mobile Developer**: Yasmin Salamah Ilmu Komputer / G64170108 
 - **System Analyst Santi Amalia Ar-Nur Ilmu Komputer** / G64170041 
 - **Mobile Developer Morgan Mendel Ilmu Komputer** / G64170069
