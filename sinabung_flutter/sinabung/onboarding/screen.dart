@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sinabung/onboarding/model.dart;
-import 'package:sinabung/onboarding/tiles.dart';
+import 'model.dart';
+import 'tiles.dart';
 
 class OnBoardingScreen extends StatefulWidget {
 @override

@@ -9,9 +9,6 @@ class _MyBottomBarState extends State<MyBottomBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('My Flutter App'),
-      ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         currentIndex: 0, // this will be set when a new tab is tapped
@@ -37,19 +34,3 @@ class _MyBottomBarState extends State<MyBottomBar> {
     );
   }
 }
-
-// BottomNavigationBarItem(
-// icon: new Icon(Icons.home_sharp),
-// label: 'Home',
-// ),
-// BottomNavigationBarItem(
-// icon: new Icon(Icons.insert_chart_sharp),
-// label: 'Analisis',
-// ),
-// BottomNavigationBarItem(
-// icon: new Icon(Icons.add_box_sharp),
-// label: 'Tambah',
-// ),
-// BottomNavigationBarItem(
-// icon: new Icon(Icons.restore_sharp),
-// label: 'History',
