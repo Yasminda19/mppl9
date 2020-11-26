@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sinabung/utils/styles.dart';
 import 'package:sinabung/views/partials/onboarding_page.dart';
-import 'package:sinabung/views/partials/onboarding_indicator.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   @override

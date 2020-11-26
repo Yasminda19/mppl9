@@ -17,6 +17,7 @@ class OnBoardingPage extends StatelessWidget {
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
+              color: Color(0xFF202944),
             ),
           ),
           SizedBox(height: 30),
@@ -25,7 +26,10 @@ class OnBoardingPage extends StatelessWidget {
           Text(
             body,
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 14),
+            style: TextStyle(
+              fontSize: 14,
+              color: Color(0xFF8E9AA7),
+            ),
           ),
         ],
       ),

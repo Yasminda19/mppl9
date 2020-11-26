@@ -36,9 +36,14 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
       backgroundColor: Colors.white,
       body: Container(
         color: Colors.white,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [Text("Sinabung")],
+        child: Center(
+          child: Text(
+            "Sinabung",
+            style: TextStyle(
+              fontSize: 72,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ),
       ),
     );
