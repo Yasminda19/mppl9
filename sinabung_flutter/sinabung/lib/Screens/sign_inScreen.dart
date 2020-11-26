@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sinabung/sign_in.dart';
 
-import 'first_screen.dart';
+// import 'first_screen.dart';
 
 class LoginPage extends StatefulWidget {
   @override
