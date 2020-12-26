@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_auth_buttons/flutter_auth_buttons.dart';
+import 'package:sinabung/utils/signin.dart';
 
-class AuthPage extends StatefulWidget {
+class AuthScreen extends StatefulWidget {
   @override
-  _AuthPageState createState() => _AuthPageState();
+  _AuthScreenState createState() => _AuthScreenState();
 }
 
-class _AuthPageState extends State<AuthPage> {
+class _AuthScreenState extends State<AuthScreen> {
   static const _kTitleBoldFont = TextStyle(
-    fontSize: 32,
+    fontSize: 24,
     fontWeight: FontWeight.bold,
     color: Color(0xFF202944),
   );
 
   static const _kNormalFont = TextStyle(
-    fontSize: 20,
+    fontSize: 14,
     color: Color(0xFF2D3033),
   );
 
@@ -40,10 +41,15 @@ class _AuthPageState extends State<AuthPage> {
                   style: _kNormalFont),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 144, right: 144),
+              padding: const EdgeInsets.only(left: 48, right: 48),
               child: GoogleSignInButton(
                 onPressed: () {
-                  Navigator.of(context).pushReplacementNamed("/home");
+                  var auth = new GoogleAuth();
+                  auth.signIn("", "").then((result) => {
+                        if (result != null)
+                          Navigator.of(context)
+                              .pushReplacementNamed("/home", arguments: auth)
+                      });
                 },
                 darkMode: true,
               ),

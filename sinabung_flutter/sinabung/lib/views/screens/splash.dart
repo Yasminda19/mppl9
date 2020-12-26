@@ -4,18 +4,18 @@ import 'package:flutter/material.dart';
 import 'package:sinabung/utils/constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class SplashScreenPage extends StatefulWidget {
+class SplashScreen extends StatefulWidget {
   @override
-  _SplashScreenPageState createState() => _SplashScreenPageState();
+  _SplashScreenState createState() => _SplashScreenState();
 }
 
-class _SplashScreenPageState extends State<SplashScreenPage> {
+class _SplashScreenState extends State<SplashScreen> {
   Future checkFirstSeen() async {
     // SharedPreferences prefs = await SharedPreferences.getInstance();
     // bool _seen = prefs.getBool(Constants.appPreviouslyRunKey) ?? false;
     bool _seen = false;
     if (_seen) {
-      Navigator.of(context).pushReplacementNamed("/home");
+      Navigator.of(context).pushReplacementNamed("/auth");
     } else {
       // await prefs.setBool(Constants.appPreviouslyRunKey, true);
       Navigator.of(context).pushReplacementNamed("/onboarding");

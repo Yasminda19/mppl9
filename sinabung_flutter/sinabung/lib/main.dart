@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:sinabung/utils/router.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-import 'package:flutter/rendering.dart';
+// import 'package:flutter/rendering.dart';
 
-void main() {
+void main() async {
   // debugPaintSizeEnabled = true;
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 

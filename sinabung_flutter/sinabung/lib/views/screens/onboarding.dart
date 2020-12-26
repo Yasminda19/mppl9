@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sinabung/utils/styles.dart';
 import 'package:sinabung/views/partials/onboarding_page.dart';
 
 class OnBoardingScreen extends StatefulWidget {
@@ -86,7 +85,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
             ],
           ),
           Positioned(
-            bottom: 280,
+            bottom: 90,
             child: DecoratedBox(
               decoration: BoxDecoration(
                 color: _kIndicatorBackgroundColor,
@@ -100,7 +99,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
             ),
           ),
           Positioned(
-            bottom: 200,
+            bottom: 30,
             child: RaisedButton(
               color: Color(0xFF202944),
               shape: RoundedRectangleBorder(
